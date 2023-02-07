@@ -21,9 +21,6 @@ customElements.whenDefined("card-tools").then(() => {
 
     static get styles() {
       return cardTools.LitCSS`
-      ha-card {
-        margin-top: 32px;
-      }
       .attributes {
         white-space: nowrap;
         padding: 8px;
@@ -48,12 +45,12 @@ customElements.whenDefined("card-tools").then(() => {
       }
       .header > img {
         border-radius: 50%;
-        width: 88px;
-        height: 88px;
+        width: 55px;
+        height: 55px;
         object-fit: cover;
         margin-left: 16px;
         margin-right: 16px;
-        margin-top: -32px;
+        margin-top: 8px;
         float: left;
         box-shadow: var( --ha-card-box-shadow, 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) );
       }
